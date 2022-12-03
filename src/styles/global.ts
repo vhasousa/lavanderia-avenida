@@ -7,6 +7,14 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
   body {
     background: ${(props) => props.theme['background-color']};
     -webkit-font-smoothing: antialiased;
