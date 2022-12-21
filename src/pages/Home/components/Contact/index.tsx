@@ -2,7 +2,7 @@ import { ContactContainer } from './styles'
 
 export function Contact() {
   return (
-    <ContactContainer>
+    <ContactContainer id="contact">
       <h2>Lavanderia Avenida</h2>
       <p>Buscamos e entregamos em Valença - RJ e região</p>
       <a

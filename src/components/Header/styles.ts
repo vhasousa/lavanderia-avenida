@@ -24,10 +24,6 @@ export const HeaderContainer = styled.header`
     transition: 0.3s;
   }
 
-  a:hover {
-    opacity: 0.7;
-  }
-
   .nav-list {
     list-style: none;
     display: flex;
