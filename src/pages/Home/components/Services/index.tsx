@@ -9,7 +9,7 @@ import iron from '../../../../assets/iron.svg'
 
 export function Services() {
   return (
-    <ServicesContainer>
+    <ServicesContainer id="services">
       <h2 className={`title`}>Serviços</h2>
       <div className={`services`}>
         <article className={`services__card`}>
@@ -54,7 +54,7 @@ export function Services() {
           <p>Passadoria</p>
         </article>
       </div>
-      <a className={`services__button`} href="prices.html">
+      <a className={`services__button`} href="precos">
         Confira nossos preços
       </a>
     </ServicesContainer>

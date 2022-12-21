@@ -2,7 +2,7 @@ import { FooterContainer } from './styles'
 
 export function Footer() {
   return (
-    <FooterContainer>
+    <FooterContainer id="footer">
       <div className={`location`}>
         <div className={`map-responsive`}>
           <iframe

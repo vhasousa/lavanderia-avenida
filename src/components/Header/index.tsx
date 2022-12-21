@@ -12,22 +12,22 @@ export function Header() {
   return (
     <HeaderContainer>
       <nav className={`nav`}>
-        <a href="index.html">
+        <a href="/">
           <img src={logoImg} alt="" />
         </a>
 
         <ul className={`${navActive ? 'active' : ''} nav-list`}>
           <li>
-            <a href="">Preços</a>
+            <a href="/precos">Preços</a>
           </li>
           <li>
-            <a href="">Serviços</a>
+            <a href="#services">Serviços</a>
           </li>
           <li>
-            <a href="">Contato</a>
+            <a href="#contact">Contato</a>
           </li>
           <li>
-            <a href="">Localização</a>
+            <a href="#footer">Localização</a>
           </li>
         </ul>
 
